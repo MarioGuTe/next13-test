@@ -1,3 +1,4 @@
+"use client";
 // ésta es la página principal donde se renderiza inicialmente la
 // app
 // Las distintas vistas se escriben dentro de carpetas con el nombre
@@ -8,7 +9,9 @@
 export default function Home() {
   return (
     <main>
-      <h1 className="text-lg py-2">Hello next 13 😁</h1>
+      <h1 onClick={console.log("hola")} className="text-xl py-2">
+        Hello next 13 😁
+      </h1>
     </main>
   );
 }
