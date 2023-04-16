@@ -1,8 +1,3 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
 // ésta es la página principal donde se renderiza inicialmente la
 // app
 // Las distintas vistas se escriben dentro de carpetas con el nombre
